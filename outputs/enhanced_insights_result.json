@@ -1,0 +1,332 @@
+{
+  "summary": {
+    "total_transactions": 8408,
+    "total_spend": 54801184.0,
+    "avg_transaction": 6517.743101807802,
+    "median_transaction": 4856.0,
+    "max_transaction": 49978.0,
+    "min_transaction": 0.0
+  },
+  "category_breakdown": {
+    "sum": {
+      "Education": 3467477.0,
+      "Entertainment": 4319631.0,
+      "Food": 7979533.0,
+      "Health": 1923249.0,
+      "Other": 649087.0,
+      "Others": 167714.0,
+      "Rent": 23295400.0,
+      "Savings": 1362619.0,
+      "Travel": 6647179.0,
+      "Utilities": 4989295.0
+    },
+    "mean": {
+      "Education": 5214.251127819549,
+      "Entertainment": 5210.652593486127,
+      "Food": 3720.0620046620047,
+      "Health": 4881.342639593909,
+      "Other": 5110.921259842519,
+      "Others": 5783.241379310345,
+      "Rent": 13924.327555289898,
+      "Savings": 5302.019455252918,
+      "Travel": 5117.150885296382,
+      "Utilities": 5039.69191919192
+    },
+    "count": {
+      "Education": 665,
+      "Entertainment": 829,
+      "Food": 2145,
+      "Health": 394,
+      "Other": 127,
+      "Others": 29,
+      "Rent": 1673,
+      "Savings": 257,
+      "Travel": 1299,
+      "Utilities": 990
+    }
+  },
+  "monthly_trend": {
+    "2021-01": 992054.0,
+    "2021-02": 1089941.0,
+    "2021-03": 1416154.0,
+    "2021-04": 963885.0,
+    "2021-05": 1105594.0,
+    "2021-06": 947307.0,
+    "2021-07": 1237306.0,
+    "2021-08": 1265325.0,
+    "2021-09": 808446.0,
+    "2021-10": 1180977.0,
+    "2021-11": 1107490.0,
+    "2021-12": 1243654.0,
+    "2022-01": 1173370.0,
+    "2022-02": 1201734.0,
+    "2022-03": 1030347.0,
+    "2022-04": 1243350.0,
+    "2022-05": 1162642.0,
+    "2022-06": 1198017.0,
+    "2022-07": 1094965.0,
+    "2022-08": 982835.0,
+    "2022-09": 1100953.0,
+    "2022-10": 1231605.0,
+    "2022-11": 1037008.0,
+    "2022-12": 1272889.0,
+    "2023-01": 1278452.0,
+    "2023-02": 1175561.0,
+    "2023-03": 794646.0,
+    "2023-04": 1138313.0,
+    "2023-05": 1103253.0,
+    "2023-06": 1042466.0,
+    "2023-07": 1054433.0,
+    "2023-08": 1347527.0,
+    "2023-09": 1123712.0,
+    "2023-10": 1184707.0,
+    "2023-11": 1447950.0,
+    "2023-12": 1096031.0,
+    "2024-01": 1131260.0,
+    "2024-02": 991069.0,
+    "2024-03": 1161044.0,
+    "2024-04": 1096962.0,
+    "2024-05": 1231561.0,
+    "2024-06": 968876.0,
+    "2024-07": 1284687.0,
+    "2024-08": 1174671.0,
+    "2024-09": 1129214.0,
+    "2024-10": 1130291.0,
+    "2024-11": 1364944.0,
+    "2024-12": 1261706.0
+  },
+  "weekly_pattern": {
+    "0": 6777.661513425549,
+    "1": 6751.26787181594,
+    "2": 6196.511259382819,
+    "3": 6378.148489932886,
+    "4": 6515.5611633875105,
+    "5": 6636.917416189697,
+    "6": 6352.106870229008
+  },
+  "anomaly_insights": {
+    "anomaly_count": 169,
+    "anomaly_total": 1885334.0,
+    "avg_anomaly": 11155.8224852071,
+    "top_anomaly_categories": {
+      "Rent": 54,
+      "Utilities": 21,
+      "Education": 18,
+      "Health": 16,
+      "Entertainment": 14
+    }
+  },
+  "monthly_comparison": {
+    "current_month": 12,
+    "previous_month": 11,
+    "current_total": 4874280.0,
+    "previous_total": 4957392.0,
+    "change_percent": -1.6765266898401416,
+    "trend": "down"
+  },
+  "peak_times": {
+    "peak_days": {
+      "Monday": 8329746.0,
+      "Tuesday": 8216293.0,
+      "Saturday": 8116950.0
+    }
+  },
+  "savings_opportunities": [
+    {
+      "type": "small_transactions",
+      "count": 381,
+      "total": 96840.0,
+      "suggestion": "Consolidate 381 small purchases to save mental energy"
+    },
+    {
+      "type": "high_avg_category",
+      "category": "Rent",
+      "avg_amount": 13924.327555289898,
+      "suggestion": "Your Rent transactions average ₹13,924. Look for cheaper alternatives"
+    }
+  ],
+  "spending_alerts": [
+    {
+      "type": "category_spike",
+      "category": "Education",
+      "current": 277571.0,
+      "average": 5214.251127819549,
+      "increase": "5223%"
+    },
+    {
+      "type": "category_spike",
+      "category": "Entertainment",
+      "current": 395184.0,
+      "average": 5210.652593486127,
+      "increase": "7484%"
+    },
+    {
+      "type": "category_spike",
+      "category": "Food",
+      "current": 575200.0,
+      "average": 3720.0620046620047,
+      "increase": "15362%"
+    },
+    {
+      "type": "category_spike",
+      "category": "Health",
+      "current": 216356.0,
+      "average": 4881.342639593909,
+      "increase": "4332%"
+    },
+    {
+      "type": "category_spike",
+      "category": "Other",
+      "current": 97866.0,
+      "average": 5110.921259842519,
+      "increase": "1814%"
+    },
+    {
+      "type": "category_spike",
+      "category": "Others",
+      "current": 17661.0,
+      "average": 5783.241379310345,
+      "increase": "205%"
+    },
+    {
+      "type": "category_spike",
+      "category": "Rent",
+      "current": 2228247.0,
+      "average": 13924.327555289898,
+      "increase": "15902%"
+    },
+    {
+      "type": "category_spike",
+      "category": "Savings",
+      "current": 107520.0,
+      "average": 5302.019455252918,
+      "increase": "1927%"
+    },
+    {
+      "type": "category_spike",
+      "category": "Travel",
+      "current": 555623.0,
+      "average": 5117.150885296382,
+      "increase": "10758%"
+    },
+    {
+      "type": "category_spike",
+      "category": "Utilities",
+      "current": 403052.0,
+      "average": 5039.69191919192,
+      "increase": "7897%"
+    }
+  ],
+  "cluster_0": {
+    "size": 256,
+    "total_spend": 1649928.0,
+    "avg_transaction": 6445.03125,
+    "top_category": "Rent",
+    "cluster_name": "Medium Spender - Bank Transfer User (Rent Lover)",
+    "top_5_categories": {
+      "Rent": 61,
+      "Food": 51,
+      "Travel": 43,
+      "Utilities": 33,
+      "Entertainment": 26
+    }
+  },
+  "cluster_1": {
+    "size": 1125,
+    "total_spend": 7317767.0,
+    "avg_transaction": 6504.681777777778,
+    "top_category": "Food",
+    "cluster_name": "Medium Spender - Cash User (Food Lover)",
+    "top_5_categories": {
+      "Food": 289,
+      "Rent": 222,
+      "Travel": 171,
+      "Utilities": 145,
+      "Entertainment": 111
+    }
+  },
+  "cluster_2": {
+    "size": 1161,
+    "total_spend": 7246321.0,
+    "avg_transaction": 6241.447889750215,
+    "top_category": "Food",
+    "cluster_name": "Medium Spender - Bank Transfer User (Food Lover)",
+    "top_5_categories": {
+      "Food": 309,
+      "Rent": 224,
+      "Travel": 181,
+      "Utilities": 130,
+      "Entertainment": 112
+    }
+  },
+  "cluster_3": {
+    "size": 1185,
+    "total_spend": 8020588.0,
+    "avg_transaction": 6768.428691983122,
+    "top_category": "Food",
+    "cluster_name": "Medium Spender - Cash User (Food Lover)",
+    "top_5_categories": {
+      "Food": 285,
+      "Rent": 249,
+      "Travel": 168,
+      "Utilities": 158,
+      "Entertainment": 127
+    }
+  },
+  "cluster_4": {
+    "size": 1145,
+    "total_spend": 7268765.0,
+    "avg_transaction": 6348.266375545852,
+    "top_category": "Food",
+    "cluster_name": "Medium Spender - Bank Transfer User (Food Lover)",
+    "top_5_categories": {
+      "Food": 308,
+      "Rent": 236,
+      "Travel": 183,
+      "Utilities": 132,
+      "Entertainment": 99
+    }
+  },
+  "cluster_5": {
+    "size": 1160,
+    "total_spend": 7335177.0,
+    "avg_transaction": 6323.428448275862,
+    "top_category": "Food",
+    "cluster_name": "Medium Spender - Card User (Food Lover)",
+    "top_5_categories": {
+      "Food": 302,
+      "Rent": 208,
+      "Travel": 185,
+      "Utilities": 136,
+      "Entertainment": 123
+    }
+  },
+  "cluster_6": {
+    "size": 1194,
+    "total_spend": 7920455.0,
+    "avg_transaction": 6633.546901172529,
+    "top_category": "Food",
+    "cluster_name": "Medium Spender - Cash User (Food Lover)",
+    "top_5_categories": {
+      "Food": 332,
+      "Rent": 223,
+      "Travel": 187,
+      "Utilities": 119,
+      "Entertainment": 109
+    }
+  },
+  "cluster_7": {
+    "size": 1182,
+    "total_spend": 8042183.0,
+    "avg_transaction": 6803.877326565143,
+    "top_category": "Food",
+    "cluster_name": "Medium Spender - Bank Transfer User (Food Lover)",
+    "top_5_categories": {
+      "Food": 269,
+      "Rent": 250,
+      "Travel": 181,
+      "Utilities": 137,
+      "Entertainment": 122
+    }
+  }
+}

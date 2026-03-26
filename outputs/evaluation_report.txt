@@ -1,0 +1,46 @@
+======================================================================
+MODEL EVALUATION REPORT
+======================================================================
+Generated: 2026-03-27 00:26:10
+
+ISOLATION FOREST (Anomaly Detection)
+----------------------------------------
+  Anomalies detected: 421
+  Anomaly percentage: 5.01%
+  Anomaly total spend: ₹1,342,501.00
+  Average anomaly: ₹3,188.84
+
+  Top Anomaly Categories:
+    - Entertainment: 82 anomalies
+    - Health: 66 anomalies
+    - Other: 53 anomalies
+    - Savings: 52 anomalies
+    - Education: 42 anomalies
+
+K-MEANS (Behavioral Clustering)
+----------------------------------------
+  Silhouette Score: 0.1414
+  Calinski-Harabasz: 781.92
+  Davies-Bouldin: 2.5713
+  Interpretation: {'silhouette': 'poor', 'davies': 'poor'}
+
+PER-USER EVALUATION
+----------------------------------------
+  Total users: 150
+  Users with anomalies: 143
+  Avg transactions per user: 56.1
+  Avg spend per user: ₹365,341.23
+
+OPTIMAL CLUSTER ANALYSIS
+----------------------------------------
+  Recommended k: 10
+
+MODEL FILES
+----------------------------------------
+  isolation_forest.pkl: 1544.6 KB
+  kmeans.pkl: 34.4 KB
+  scaler.pkl: 1.8 KB
+
+======================================================================
+END OF REPORT
+======================================================================

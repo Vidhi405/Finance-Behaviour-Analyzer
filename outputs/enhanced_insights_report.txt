@@ -1,0 +1,115 @@
+======================================================================
+PERSONAL FINANCE BEHAVIOR ANALYZER - ENHANCED INSIGHTS REPORT
+======================================================================
+Generated: 2026-03-27 01:49:39
+
+1. OVERVIEW
+----------------------------------------
+   Total Transactions: 8,408
+   Total Spending: ₹54,801,184.00
+   Average Transaction: ₹6,517.74
+   Median Transaction: ₹4,856.00
+
+2. MONTHLY COMPARISON
+----------------------------------------
+   Current Month: Month 12 - ₹4,874,280.00
+   Previous Month: Month 11 - ₹4,957,392.00
+   Change: -1.7% (down)
+
+3. TOP SPENDING CATEGORIES
+----------------------------------------
+   Rent: ₹23,295,400.00 (1,673 transactions, Avg: ₹13,924.33)
+   Food: ₹7,979,533.00 (2,145 transactions, Avg: ₹3,720.06)
+   Travel: ₹6,647,179.00 (1,299 transactions, Avg: ₹5,117.15)
+   Utilities: ₹4,989,295.00 (990 transactions, Avg: ₹5,039.69)
+   Entertainment: ₹4,319,631.00 (829 transactions, Avg: ₹5,210.65)
+   Education: ₹3,467,477.00 (665 transactions, Avg: ₹5,214.25)
+   Health: ₹1,923,249.00 (394 transactions, Avg: ₹4,881.34)
+   Savings: ₹1,362,619.00 (257 transactions, Avg: ₹5,302.02)
+   Other: ₹649,087.00 (127 transactions, Avg: ₹5,110.92)
+   Others: ₹167,714.00 (29 transactions, Avg: ₹5,783.24)
+
+4. ANOMALY INSIGHTS
+----------------------------------------
+   Anomalies Detected: 169
+   Total Anomaly Spending: ₹1,885,334.00
+   Average Anomaly: ₹11,155.82
+   Top Anomaly Categories:
+      - Rent: 54 transactions
+      - Utilities: 21 transactions
+      - Education: 18 transactions
+      - Health: 16 transactions
+      - Entertainment: 14 transactions
+
+5. SPENDING ALERTS
+----------------------------------------
+   ⚠️ Education spending up 5223% this month!
+      Current: ₹277,571.00 vs Avg: ₹5,214.25
+   ⚠️ Entertainment spending up 7484% this month!
+      Current: ₹395,184.00 vs Avg: ₹5,210.65
+   ⚠️ Food spending up 15362% this month!
+      Current: ₹575,200.00 vs Avg: ₹3,720.06
+   ⚠️ Health spending up 4332% this month!
+      Current: ₹216,356.00 vs Avg: ₹4,881.34
+   ⚠️ Other spending up 1814% this month!
+      Current: ₹97,866.00 vs Avg: ₹5,110.92
+   ⚠️ Others spending up 205% this month!
+      Current: ₹17,661.00 vs Avg: ₹5,783.24
+   ⚠️ Rent spending up 15902% this month!
+      Current: ₹2,228,247.00 vs Avg: ₹13,924.33
+   ⚠️ Savings spending up 1927% this month!
+      Current: ₹107,520.00 vs Avg: ₹5,302.02
+   ⚠️ Travel spending up 10758% this month!
+      Current: ₹555,623.00 vs Avg: ₹5,117.15
+   ⚠️ Utilities spending up 7897% this month!
+      Current: ₹403,052.00 vs Avg: ₹5,039.69
+
+6. SAVINGS OPPORTUNITIES
+----------------------------------------
+   💡 Consolidate 381 small purchases to save mental energy
+   💡 Your Rent transactions average ₹13,924. Look for cheaper alternatives
+
+7. PEAK SPENDING TIMES
+----------------------------------------
+   Monday: ₹8,329,746.00
+   Tuesday: ₹8,216,293.00
+   Saturday: ₹8,116,950.00
+
+8. BEHAVIORAL CLUSTERS
+----------------------------------------
+   Cluster 0: Medium Spender - Bank Transfer User (Rent Lover)
+      Size: 256 transactions
+      Total Spend: ₹1,649,928.00
+      Avg Transaction: ₹6,445.03
+   Cluster 1: Medium Spender - Cash User (Food Lover)
+      Size: 1,125 transactions
+      Total Spend: ₹7,317,767.00
+      Avg Transaction: ₹6,504.68
+   Cluster 2: Medium Spender - Bank Transfer User (Food Lover)
+      Size: 1,161 transactions
+      Total Spend: ₹7,246,321.00
+      Avg Transaction: ₹6,241.45
+   Cluster 3: Medium Spender - Cash User (Food Lover)
+      Size: 1,185 transactions
+      Total Spend: ₹8,020,588.00
+      Avg Transaction: ₹6,768.43
+   Cluster 4: Medium Spender - Bank Transfer User (Food Lover)
+      Size: 1,145 transactions
+      Total Spend: ₹7,268,765.00
+      Avg Transaction: ₹6,348.27
+   Cluster 5: Medium Spender - Card User (Food Lover)
+      Size: 1,160 transactions
+      Total Spend: ₹7,335,177.00
+      Avg Transaction: ₹6,323.43
+   Cluster 6: Medium Spender - Cash User (Food Lover)
+      Size: 1,194 transactions
+      Total Spend: ₹7,920,455.00
+      Avg Transaction: ₹6,633.55
+   Cluster 7: Medium Spender - Bank Transfer User (Food Lover)
+      Size: 1,182 transactions
+      Total Spend: ₹8,042,183.00
+      Avg Transaction: ₹6,803.88
+
+======================================================================
+END OF REPORT
+======================================================================

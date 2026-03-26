@@ -1,0 +1,77 @@
+{
+  "isolation_forest": {
+    "anomaly_count": 421,
+    "anomaly_percentage": 5.0071360608943865,
+    "anomaly_total_spend": 1342501.0,
+    "avg_anomaly": 3188.8384798099764,
+    "top_anomaly_categories": {
+      "Entertainment": 82,
+      "Health": 66,
+      "Other": 53,
+      "Savings": 52,
+      "Education": 42,
+      "Utilities": 39,
+      "Food": 35,
+      "Rent": 28,
+      "Travel": 24
+    }
+  },
+  "kmeans": {
+    "silhouette_score": 0.14142799631254938,
+    "calinski_harabasz_score": 781.9238501599924,
+    "davies_bouldin_score": 2.5713117010559117,
+    "n_clusters": 4,
+    "interpretation": {
+      "silhouette": "poor",
+      "davies": "poor"
+    }
+  },
+  "user_evaluation": {
+    "total_users": 150,
+    "users_with_anomalies": 143,
+    "avg_transactions_per_user": 56.053333333333335,
+    "avg_spend_per_user": 365341.2266666667
+  },
+  "optimal_clusters": {
+    "optimal_k": 10,
+    "inertias": [
+      186690.73575556686,
+      174609.91661488585,
+      164331.00849674514,
+      154349.45356828405,
+      144397.4990983402,
+      134432.03161117304,
+      126257.89553879172,
+      125382.27274270913,
+      116191.20237950164
+    ],
+    "silhouettes": [
+      0.13346708812105176,
+      0.1189289301568916,
+      0.14142799631254938,
+      0.16935885008776272,
+      0.18553424562204826,
+      0.21568275874350995,
+      0.2196160181726536,
+      0.21786910827987033,
+      0.22236409937380394
+    ],
+    "k_range": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "model_info": {
+    "isolation_forest.pkl": "1544.6 KB",
+    "kmeans.pkl": "34.4 KB",
+    "scaler.pkl": "1.8 KB"
+  },
+  "evaluation_timestamp": "2026-03-27T00:26:10.995314"
+}
