@@ -1,0 +1,69 @@
+{
+  "status": "success",
+  "summary": {
+    "total_transactions": 8408,
+    "total_spend": 54801184.0,
+    "avg_transaction": 6517.743101807802,
+    "median_transaction": 4856.0,
+    "unique_categories": 10,
+    "unique_users": 150,
+    "date_range": {
+      "start": "2021-01-01 00:00:00",
+      "end": "2024-12-31 00:00:00"
+    },
+    "cluster_distribution": {
+      "3": 2416,
+      "0": 2402,
+      "2": 2361,
+      "1": 1229
+    },
+    "anomaly_count": 421,
+    "metrics": {
+      "silhouette_score": 0.14142799631254938,
+      "calinski_harabasz_score": 781.9238501599924,
+      "davies_bouldin_score": 2.5713117010559117,
+      "anomaly_count": 421,
+      "anomaly_percentage": 5.0071360608943865
+    },
+    "features_used": [
+      "amount_log",
+      "month",
+      "day_of_week",
+      "is_weekend",
+      "cat_Education",
+      "cat_Entertainment",
+      "cat_Food",
+      "cat_Health",
+      "cat_Other",
+      "cat_Others",
+      "cat_Rent",
+      "cat_Savings",
+      "cat_Travel",
+      "cat_Utilities",
+      "dow_0",
+      "dow_1",
+      "dow_2",
+      "dow_3",
+      "dow_4",
+      "dow_5",
+      "dow_6",
+      "payment_mode",
+      "payment_Bank Transfer",
+      "payment_Card",
+      "payment_Cash",
+      "payment_Upi"
+    ]
+  },
+  "models": {
+    "isolation_forest": {
+      "contamination": 0.05,
+      "random_state": 42,
+      "n_estimators": 100
+    },
+    "kmeans": {
+      "n_clusters": 4,
+      "random_state": 42,
+      "n_init": 10
+    }
+  }
+}

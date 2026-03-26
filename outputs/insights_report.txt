@@ -1,0 +1,87 @@
+======================================================================
+PERSONAL FINANCE BEHAVIOR ANALYZER - INSIGHTS REPORT
+======================================================================
+Generated: 2026-03-26 23:10:15
+
+1. OVERVIEW
+----------------------------------------
+   Total Transactions: 8,408
+   Total Spending: Rs.54,801,184.00
+   Average Transaction: Rs.6,517.74
+   Median Transaction: Rs.4,856.00
+   Max Transaction: Rs.49,978.00
+   Min Transaction: Rs.0.00
+
+2. TOP SPENDING CATEGORIES
+----------------------------------------
+   Rent: Rs.23,295,400.00 (1,673 transactions, Avg: Rs.13,924.33)
+   Food: Rs.7,979,533.00 (2,145 transactions, Avg: Rs.3,720.06)
+   Travel: Rs.6,647,179.00 (1,299 transactions, Avg: Rs.5,117.15)
+   Utilities: Rs.4,989,295.00 (990 transactions, Avg: Rs.5,039.69)
+   Entertainment: Rs.4,319,631.00 (829 transactions, Avg: Rs.5,210.65)
+   Education: Rs.3,467,477.00 (665 transactions, Avg: Rs.5,214.25)
+   Health: Rs.1,923,249.00 (394 transactions, Avg: Rs.4,881.34)
+   Savings: Rs.1,362,619.00 (257 transactions, Avg: Rs.5,302.02)
+   Other: Rs.649,087.00 (127 transactions, Avg: Rs.5,110.92)
+   Others: Rs.167,714.00 (29 transactions, Avg: Rs.5,783.24)
+
+3. ANOMALY INSIGHTS
+----------------------------------------
+   Anomalies Detected: 421
+   Total Anomaly Spending: Rs.1,342,501.00
+   Average Anomaly: Rs.3,188.84
+   Top Anomaly Categories:
+      - Entertainment: 82 transactions
+      - Health: 66 transactions
+      - Other: 53 transactions
+      - Savings: 52 transactions
+      - Education: 42 transactions
+
+4. BEHAVIORAL CLUSTERS
+----------------------------------------
+   Cluster 0: 2,402 transactions
+      Total Spend: Rs.15,606,084.00
+      Avg Transaction: Rs.6,497.12
+      Top Category: Food
+   Cluster 1: 1,229 transactions
+      Total Spend: Rs.8,329,746.00
+      Avg Transaction: Rs.6,777.66
+      Top Category: Food
+   Cluster 2: 2,361 transactions
+      Total Spend: Rs.15,219,444.00
+      Avg Transaction: Rs.6,446.19
+      Top Category: Food
+   Cluster 3: 2,416 transactions
+      Total Spend: Rs.15,645,910.00
+      Avg Transaction: Rs.6,475.96
+      Top Category: Food
+
+5. WEEKLY SPENDING PATTERN
+----------------------------------------
+   Monday: Rs.6,777.66
+   Tuesday: Rs.6,751.27
+   Wednesday: Rs.6,196.51
+   Thursday: Rs.6,378.15
+   Friday: Rs.6,515.56
+   Saturday: Rs.6,636.92
+   Sunday: Rs.6,352.11
+
+6. MONTHLY SPENDING TREND (Top 6 months)
+----------------------------------------
+   2023-11: Rs.1,447,950.00
+   2021-03: Rs.1,416,154.00
+   2024-11: Rs.1,364,944.00
+   2023-08: Rs.1,347,527.00
+   2024-07: Rs.1,284,687.00
+   2023-01: Rs.1,278,452.00
+
+7. PAYMENT MODE DISTRIBUTION
+----------------------------------------
+   Cash: 2,148 transactions (25.5%)
+   Bank Transfer: 2,123 transactions (25.2%)
+   Card: 2,105 transactions (25.0%)
+   Upi: 2,032 transactions (24.2%)
+
+======================================================================
+END OF REPORT
+======================================================================
