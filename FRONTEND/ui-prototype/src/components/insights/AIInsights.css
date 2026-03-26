@@ -1,0 +1,121 @@
+.insights-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.insight-card {
+  height: 100%;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  cursor: pointer;
+}
+
+.insight-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-float);
+}
+
+.insight-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.insight-icon-container {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.insight-title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--color-text-primary);
+}
+
+.insight-message {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.insight-action {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  margin-top: auto;
+  transition: gap var(--transition-fast);
+}
+
+.insight-card:hover .insight-action {
+  gap: 0.75rem;
+}
+
+.insight-action-text {
+  transition: color var(--transition-fast);
+}
+
+/* Savings specific */
+.savings-opportunity-card {
+  background: linear-gradient(to right, #f0fdf4, white);
+  border-color: #bbf7d0;
+}
+
+.savings-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem !important;
+}
+
+.savings-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.savings-title {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: #15803d;
+}
+
+.savings-amount {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--color-success);
+  display: flex;
+  align-items: baseline;
+  letter-spacing: -0.05em;
+}
+
+.savings-amount span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #166534;
+}
+
+@media (max-width: 768px) {
+  .savings-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}

@@ -1,0 +1,111 @@
+.analytics-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.analytics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.chart-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.view-toggle {
+  display: flex;
+  background-color: var(--color-bg);
+  padding: 0.25rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.toggle-btn-small {
+  padding: 0.25rem 0.75rem;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.toggle-btn-small:hover {
+  color: var(--color-text-primary);
+}
+
+.toggle-btn-small.active {
+  background-color: white;
+  color: var(--color-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.chart-content {
+  flex: 1;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-tooltip {
+  background-color: white;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+}
+
+.tooltip-label {
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tooltip-value {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.tooltip-alert {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: var(--text-xs);
+  color: var(--color-alert);
+  background-color: var(--color-alert-bg);
+  padding: 0.125rem 0.375rem;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+}
